@@ -29,7 +29,7 @@ We also import Babel inside of a script tag only for exercise purposes.
 
 Babel's transpilation allows us to spread `props` into React components. It enables using any modern JavaScript logic (ES6+), such as template literals, shorthand property names, object, or array destructuring, etc.
 
-To use Babel imported from a `script` tag, we use `<script type="text/babel">` instead of type="module", besides its own tag with the `src` attribute.
+To use Babel imported from a `script` tag, we use `<script type="text/babel">` instead of `type="module"`, besides its own tag with the `src` attribute.
 
 ### _Exercise 4 - Components as functions and PropTypes_
 
@@ -49,6 +49,7 @@ The order of the `...rest` operator matters. If we want to allow our components 
 When defining some default stylings but allowing for extension, the spread operator can be used instead of `Object.assign`, making the code more imperative.
 
 CSS files can be imported inside JS code as we would import CSS into HTML with the `<style>` tag.
+
 React components are exported as modules.
 
 Interpolation allows us to navigate from JSX into JS or CSS in JS lands, and then back.
@@ -76,3 +77,7 @@ Better than showing errors to our users telling them what is not allowed (such a
 In React, the `key` property is used in lists as a mechanism for keeping track of the right elements, especially in cases of event handlers such as `onClick` that add or remove elements to/from a list.
 
 The value of every `key` property should be unique, ideally being identified by an `id`.
+
+___
+
+Written with 💙 by [Walmyr Filho](https://walmyr.dev).
