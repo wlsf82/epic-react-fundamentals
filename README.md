@@ -39,7 +39,7 @@ React components are functions that return renderable elements or other componen
 
 `PropTypes` can also be imported inside of a `script` tag for exercise purposes.
 
-Finally, `PropTypes` are only use in development mode.
+Finally, `PropTypes` are only used in development mode.
 
 ### _Exercise 5 - Styling React Components_
 
